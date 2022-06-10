@@ -1,9 +1,9 @@
 #include <Arduino.h>
 
-#define PIN_SENSOR A0
-#define PIN_LED_R 5
-#define PIN_LED_Y 6
-#define PIN_LED_G 7
+#define PIN_SENSOR A0 // 압력센서가 연결된 핀
+#define PIN_LED_R 5 // 빨간색 LED가 연결된 핀
+#define PIN_LED_Y 6 // 노란색 LED가 연결된 핀
+#define PIN_LED_G 7 // 초록색 LED가 연결된 핀
 
 #define HAPTIC_WEAK 254/1.5
 #define HAPTIC_STRONG 254/1.2
